@@ -1,25 +1,8 @@
-# OS junk files
-[Tt]humbs.db
-*.DS_Store
-
-# Ignore configuration files
+# Ignore configuration files that may contain sensitive information.
 settings.php
-*settings.php*
 
 # Ignore paths that contain generated content.
-files/
-*files/
-private/
-*private/
-files/js/
-files/js/*
-files/css/
-files/css/*
-deployment-date.txt
-version.txt
+files/ctools
 
-# Ignore default text files
-robots.txt
-README.txt
-*README.txt
-
+# theme is separate repository 
+themes 
