@@ -1,0 +1,69 @@
+<?php
+// emice site custom functions and utilities
+
+
+function emice_selection_aquiring_models()  {
+
+	$trail = menu_get_active_trail();
+	$menuOne = $trail[1];
+	
+	if ( $menuOne['link_title'] == "Acquiring Models") {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+
+function emice_selection_about_animal_models()  {
+
+	$trail = menu_get_active_trail();
+	$menuOne = $trail[1];
+
+	if ( $menuOne['link_title'] == "About Animal Models") {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+
+function emice_selection_generating_models()  {
+
+	$trail = menu_get_active_trail();
+	$menuOne = $trail[1];
+
+	if ( $menuOne['link_title'] == "Generating Models") {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+
+function emice_selection_research_uses()  {
+
+	$trail = menu_get_active_trail();
+	$menuOne = $trail[1];
+
+	if ( $menuOne['link_title'] == "Research Uses") {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+function emice_selection_caimage()  {
+
+	$trail = menu_get_active_trail();
+	$menuOne = $trail[1];
+
+	if ( $menuOne['link_title'] == "caIMAGE") {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+
+
